@@ -8,5 +8,5 @@ function setThisWithCall(fn, thisValue, arg){
 }
 
 function setThisWithApply(fn, thisValue, args) {
-  fn.call(thisValue, 18)
+  fn.apply(thisValue, arg)
 }
