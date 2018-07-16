@@ -4,5 +4,9 @@ function justInvoke(callback) {
 }
 
 function setThisWithCall(fn, thisValue, arg){
-  return fn.call(thisValue, 18)
+  return fn.call(thisValue, arg)
+}
+
+function setThisWithApply(fn, thisValue, args) {
+  fn.call(thisValue, 18)
 }
